@@ -13,13 +13,13 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-image: url('./assets/coffee.jpg');
+  background-image: url("./assets/coffee.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
-input{
+input {
   border: none;
   border-bottom: 2px solid green;
   width: 90%;
@@ -32,12 +32,35 @@ input{
   text-align: center;
 }
 
-form{
-  background: #242B41;
+form {
+  background: #242b41;
 }
 
 .card-2 {
-  background: #242B41;
+  background: #242b41;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+
+  input,
+  textarea {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 0.25em;
+    border: 1px solid red;
+  }
 }
 
 /* button {
